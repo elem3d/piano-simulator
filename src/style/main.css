@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: 780px;
+    width: 900px;
     border: 1px solid #000;
     border-radius: 20px;
     padding: 100px 40px;
@@ -126,6 +126,6 @@ header .column span {
     background: linear-gradient(to bottom #000, #434343);
 }
 
-.piano-keys.key.hide span {
-    display: none;
+.piano-keys .key.hide span {
+    display: none !important;
 }
